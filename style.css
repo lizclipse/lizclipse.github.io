@@ -1,12 +1,12 @@
 :root {
-    --color-primary: rgb(255, 235, 235);
-    --color-secondary: #fff;
+    --color-primary: #ffebeb;
+    --color-secondary: #c18686;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-primary: rgb(39, 0, 0);
-        --color-secondary: rgb(119, 65, 65);
+        --color-primary: #270000;
+        --color-secondary: #774141;
     }
 }
 
