@@ -1,127 +1,138 @@
 :root {
-    --color-primary: #ffebeb;
-    --color-secondary: #c18686;
+  --color-primary: #ffebeb;
+  --color-secondary: #c18686;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --color-primary: #270000;
-        --color-secondary: #774141;
-    }
+  :root {
+    --color-primary: #270000;
+    --color-secondary: #774141;
+  }
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    background-color: var(--color-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;   
-    margin: 0;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-    width: 30rem;
-    height: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  width: 30rem;
+  height: 30rem;
 
-    transition: grid-template-columns 0.2s ease;
+  transition: grid-template-columns 0.2s ease;
 }
 
 a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
 
-    transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
 }
 
 a:hover {
-    box-shadow: 0 0 0.5rem var(--color-secondary);
+  box-shadow: 0 0 0.5rem var(--color-secondary);
 }
 
 img {
-    object-fit: contain;
-    transition: width 0.2s ease;
-    transition: height 0.2s ease;
+  object-fit: contain;
+  transition: width 0.2s ease;
+  transition: height 0.2s ease;
 }
 
 .github img {
-    height: 8rem;
+  height: 8rem;
 }
 
 .twitter img {
-    height: 7rem;
+  height: 7rem;
+}
+
+.tumblr img {
+  height: 8rem;
 }
 
 .youtube img {
-    height: 8.5rem;
+  height: 8.5rem;
 }
 
 .twitch img {
-    height: 7rem;
+  height: 7rem;
 }
 
 @media (max-width: 768px) {
-    main {
-        gap: 2rem;
-        width: 20rem;
-        height: 20rem;
-    }
+  main {
+    gap: 2rem;
+    width: 20rem;
+    height: 20rem;
+  }
 
-    .github img {
-        height: 5rem;
-    }
-    
-    .twitter img {
-        height: 4.5rem;
-    }
-    
-    .youtube img {
-        height: 5.5rem;
-    }
-    
-    .twitch img {
-        height: 4.5rem;
-    }
+  .github img {
+    height: 5rem;
+  }
+
+  .twitter img {
+    height: 4.5rem;
+  }
+
+  .tumblr img {
+    height: 5rem;
+  }
+
+  .youtube img {
+    height: 5.5rem;
+  }
+
+  .twitch img {
+    height: 4.5rem;
+  }
 }
 
 @media (max-width: 480px) {
-    main {
-        gap: 1.5rem;
-        width: 15.5rem;
-        height: 15.5rem;
-    }
+  main {
+    gap: 1.5rem;
+    width: 15.5rem;
+    height: 15.5rem;
+  }
 
-    .github img {
-        height: 3.5rem;
-    }
-    
-    .twitter img {
-        height: 3.2rem;
-    }
-    
-    .youtube img {
-        height: 3.8rem;
-    }
-    
-    .twitch img {
-        height: 3.2rem;
-    }
+  .github img {
+    height: 3.5rem;
+  }
+
+  .twitter img {
+    height: 3.2rem;
+  }
+
+  .tumblr img {
+    height: 3.5rem;
+  }
+
+  .youtube img {
+    height: 3.8rem;
+  }
+
+  .twitch img {
+    height: 3.2rem;
+  }
 }
 
-
 @media (max-width: 300px) {
-    main {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-        width: 7rem;
-        height: 32.5rem;
-    }
+  main {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    width: 7rem;
+    height: 32.5rem;
+  }
 }
