@@ -40,6 +40,7 @@ jobs:
 
       - name: Construct site
         run: ./scripts/build.nu
+      - run: ls -la
 
   deploy:
     needs: build
@@ -49,6 +50,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - run: ls -la
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
