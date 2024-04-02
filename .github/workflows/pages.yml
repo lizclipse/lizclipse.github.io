@@ -40,7 +40,9 @@ jobs:
 
       - name: Construct site
         run: ./scripts/build.nu
-      - run: ls -la
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
     needs: build
@@ -50,12 +52,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - run: ls -la
       - name: Setup Pages
         uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
 
       - name: Deploy to GitHub Pages
         id: deployment
