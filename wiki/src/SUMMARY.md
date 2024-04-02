@@ -1,7 +1,9 @@
 # Summary
 
 - [Introduction](./README.md)
-- [Nushell](./nu/README.md)
-  - [Nix](./nu/nix.md)
-- [WezTerm](./wezterm/README.md)
-- [GitHub Actions/Workflows](./github/actions.md)
+
+- [Software Development](./softdev/README.md)
+  - [Learning to program](./softdev/learn.md)
+  - [Nushell](./softdev/nu/README.md)
+  - [WezTerm](./softdev/wezterm/README.md)
+  - [GitHub Actions/Workflows](./softdev/github/actions.md)
