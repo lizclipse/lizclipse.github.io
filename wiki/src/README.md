@@ -12,5 +12,5 @@ and, primarily, how I've either fixed or worked around them.
 This will not be limited to just these env issues that have spured me to make this -
 I have continuously run into annoying issues with many things I work with and these
 will be documented the same.
-While this is mostly for myself, if someone else finds this useful than maybe all this
+While this is mostly for myself, if someone else finds this useful then maybe all this
 frustration and suffering isn't all for nothing.
