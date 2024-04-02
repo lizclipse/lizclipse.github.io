@@ -7,6 +7,9 @@ on:
     branches: ["master"]
   pull_request: {}
   workflow_dispatch:
+defaults:
+  run:
+    shell: nu {0}
 
 permissions:
   contents: read
