@@ -1,0 +1,10 @@
+[book]
+authors = ["Elizabeth"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Elizabeth's Wiki"
+
+[output.html]
+site-url = "/wiki/"
+git-repository-url = "https://github.com/lizclipse/lizclipse.github.io/tree/master/wiki"
