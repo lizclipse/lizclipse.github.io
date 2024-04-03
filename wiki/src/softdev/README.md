@@ -6,7 +6,8 @@ This is the current environment I'm using:
 
 - Shell: [Nushell](https://www.nushell.sh)
 - Terminal: [WezTerm](https://wezfurlong.org/wezterm/)
-- Package manager: [Homebrew](https://brew.sh) (including on Linux)
+- Package manager: [Homebrew](https://brew.sh)
+  - Including on Linux, where I use it to keep things consistent & up-to-date
 - Git repository store: [GitHub](https://github.com/lizclipse)
 - CI/CD pipeline: [GitHub Actions](https://docs.github.com/en/actions)
 - Dotfile/config management: [chezmoi](https://www.chezmoi.io)

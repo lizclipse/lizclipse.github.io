@@ -38,3 +38,13 @@ My best recommendations so far is this:
   - It's the lingua franca of the software world - nearly all languages support interoperability
     via C - so knowing how to read and write it is important
   - Not necessary to write a lot, just enough to be able to understand FFIs
+
+To start learning to program, the main thing above all is to be comfortable researching
+something you don't know.
+There are _a lot_ of concepts to pick up, and it's expected that you will have to look
+things up constantly to get by.
+I've already used multiple bits of jargon that a non-programmer won't understand, but
+this is supposed to be compact and a jumping-off-point, so I will not expand any of
+it here.
+Researching is a skill _in-and-of itself_, and it's important that any new programmer
+learns how to do it efficiently.
