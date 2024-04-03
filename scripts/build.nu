@@ -8,5 +8,6 @@ glob $"($output)/wiki/**/*.html"
       open -r $it
         | str replace -a -r 'href="(.*?)\/index\.html"' 'href="${1}/" '
         | str replace -a -r 'href="index\.html"' 'href="." '
+        | str replace -a -r 'href="(.*?)\.html"' 'href="${1}" '
         | save $it -f
     }

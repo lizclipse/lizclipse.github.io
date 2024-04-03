@@ -38,6 +38,11 @@ My best recommendations so far is this:
   - It's the lingua franca of the software world - nearly all languages support interoperability
     via C - so knowing how to read and write it is important
   - Not necessary to write a lot, just enough to be able to understand FFIs
+- Use GNU/Linux (or macOS if you already have it)
+  - Most software dev happens and it targeted here
+  - Windows can work, but using a unix-like system is typically expected in most places
+  - Linux distros are nearly all free as well, making for a low barrier to entry
+  - Ubuntu is the best place to start if you know nothing
 
 To start learning to program, the main thing above all is to be comfortable researching
 something you don't know.

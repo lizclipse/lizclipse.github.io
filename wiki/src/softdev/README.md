@@ -16,3 +16,4 @@ This is the current environment I'm using:
 - Keychain: [GnuPG](https://www.gnupg.org)
 - Default language: [Rust](https://www.rust-lang.org)
 - Container system: [Docker](https://www.docker.com)
+- Notetaking: [Obsidian](https://obsidian.md) (with iCloud Drive sync)
