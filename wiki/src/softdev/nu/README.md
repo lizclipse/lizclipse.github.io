@@ -4,7 +4,7 @@
   - Can function just fine as a login shell, but be aware of this
   - Main thing to be aware of that many installers/tutorials that provide shell commands
     assume a POSIX-compliant shell, which `nu` is not
-- [Nix](./nix.md) doesn't work
+- Nix doesn't work
 - When set as a login shell, it won't load any config/env when executing a command
   directly via SSH (e.g. `ssh hostname '$env.PATH'`)
   - [nushell/nushell#10219](https://github.com/nushell/nushell/issues/10219)
