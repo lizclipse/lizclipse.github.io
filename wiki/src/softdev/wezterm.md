@@ -37,6 +37,9 @@
         },
       }
       ```
+- No way to have WezTerm execute a command within a domain and return the result locally
+  - Would be useful for status bar
+  - TODO: open GH issue
 - Keybinds on macOS are real blech by default
   - Have rebuilt base keybinds (not key-tables) entirely based on what I used in iTerm
   - Works very well, not public yet but want to make it so eventually

@@ -21,6 +21,10 @@
     ```
 - As seen above, `highlight.js` does not support nu highlighting
   - TODO: open GH issue
+- Excellent for playing around with data
+  - POSIX shells don't come close
+  - Needs some proper graphing tools
+    - TODO: either open GH issue or make/find something
 
 ## Nix
 
