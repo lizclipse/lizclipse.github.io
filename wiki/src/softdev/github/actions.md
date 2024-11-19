@@ -1,6 +1,6 @@
 # GitHub Actions/Workflows
 
-- Workflows with multiple steps _do not_ share the same environment
+- Workflows with multiple jobs _do not_ share the same environment
   - Each job starts on an entirely fresh env, including any checked-out files or built artefacts
   - To share built outputs, something like [actions/upload-artifact](https://github.com/actions/upload-artifact)
     should be used
