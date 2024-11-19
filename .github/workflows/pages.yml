@@ -37,7 +37,6 @@ jobs:
         run: ./toolkit.nu install-deps
 
       - name: Build docs
-        working-directory: ./wiki
         run: ./toolkit.nu build-wiki
 
       - name: Formatting
